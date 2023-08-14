@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class selenideTest1 {
+public class SelenideTest1 {
 
     @BeforeAll
     static void beforeAll() {
@@ -19,7 +19,7 @@ public class selenideTest1 {
     }
 
     @Test
-    void Test1() {
+    void test1() {
 
         // - Откройте страницу Selenide в Github
         open("/selenide/selenide");
